@@ -15,5 +15,5 @@
         <!-- **************操作区域************  -->
         <button class="back btn" catch:tap="back" wx:if="{{stackLength}}">撤销</button>
         <button class="add btn" catch:tap="addText">添加文本</button>
-        <button class="add btn" catch:tap="addImage">添加图片</button>
+        <button class="add btn" catch:tap="addImage">添加图片</button> 
 </view>
